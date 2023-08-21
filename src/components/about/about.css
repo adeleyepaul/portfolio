@@ -30,6 +30,10 @@
     gap: 1.5rem;
 }
 
+p{
+    text-align: justify;
+}
+
 .about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
