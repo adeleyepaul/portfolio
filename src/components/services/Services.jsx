@@ -11,56 +11,56 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Animation</h3>
+            <h3>Software Development</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Creating storyboards and presenting ideas and sketches to clients for review.</p>
+              <p>Creating APIs that allow communication between different software components or services. This includes designing endpoints, specifying request and response formats, and implementing authentication and authorization mechanisms.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Designing and illustrating frames to simulate movement.</p>
+              <p>Manage server configurations, deployment, and scaling of applications to ensure they run efficiently and handle user traffic effectively. This involves using tools like Docker and Kubernetes.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Producing artwork for backgrounds and layering images against the backgrounds.</p>
+              <p>Implement user authentication, authorization, and encryption mechanisms to protect sensitive information.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Presenting animations for review and editing animations based on feedback.</p>
+              <p>Integrate third-party services and APIs to enhance application functionality, such as payment gateways, social media sharing, and data analytics.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Integrating visual and audio effects in post-production and preparing animations for delivery.</p>
+              <p>Writing functions or microservices that run in response to events without the need to manage servers, services like AWS Lambda and Azure.</p>
             </li>
           </ul>
         </article>
         {/* END OF ANIMINATION */}
         <article className="service">
           <div className="service__head">
-            <h3>Software Development</h3>
+            <h3>Backend Development</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Creating efficient algorithms.</p>
+              <p>Design, develop, and maintain APIs that allow seamless communication between various software components, enabling data exchange and interaction.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Producing clean, efficient code based on specifications.</p>
+              <p>Handle the logic that occurs on the server, including processing data, performing calculations, and executing business rules to ensure applications work as intended.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Integrating third-party programs into systems.</p>
+              <p>Implement user authentication and authorization systems to control access to specific parts of the application and safeguard sensitive information.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Fixing and improving existing applications'.</p>
+              <p>Implement security measures like data encryption, input validation, and protection against common vulnerabilities such as SQL injection and cross-site scripting.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Efficient use of frameworks to build, deploy and manage applications'.</p>
+              <p>Identify and address performance bottlenecks by optimizing code, database queries, and server configurations to enhance application speed and responsiveness.</p>
             </li>
           </ul>
         </article>
@@ -72,7 +72,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Creating and maintaining database standards and policies.</p>
+              <p>Choose appropriate data storage solutions, such as relational databases (e.g., MySQL, MongoDB, PostgreSQL) or NoSQL databases (e.g., MongoDB), based on the application's requirements.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -88,7 +88,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Designing database backup, archiving, and storage strategy.</p>
+              <p>Design and manage databases, including creating schemas, optimizing queries, ensuring data integrity, and implementing data migration strategies.</p>
             </li>
           </ul>
         </article>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/code2.png'
-import IMG2 from '../../assets/pos1.png'
+import IMG2 from '../../assets/LoanWise.png'
 import IMG3 from '../../assets/2d.png'
 import IMG4 from '../../assets/hrm1.png'
 import IMG5 from '../../assets/git.png'
@@ -12,14 +12,14 @@ const data = [
     id:1,
     image: IMG1,
     title: 'React Application',
-    github: '#',
+    github: 'https://github.com/adeleyepaul',
     demo: '#'
   },
   {
     id:2,
     image: IMG2,
-    title: 'Inventory Application',
-    github: '#',
+    title: 'LoanWise Application',
+    github: 'https://github.com/adeleyepaul/loanwise.git',
     demo: '#'
   },
   {
@@ -40,15 +40,15 @@ const data = [
     id:5,
     image: IMG5,
     title: 'GitHub Repo',
-    github: '#',
+    github: 'github.com/adeleyepaul',
     demo: '#'
   },
   {
     id:6,
     image: IMG6,
     title: "Patrick Art's Website",
-    github: '#',
-    demo: '#'
+    github: 'https://github.com/adeleyepaul/patrickart.git',
+    demo: 'rubumnl.com'
   }
 ]
 
