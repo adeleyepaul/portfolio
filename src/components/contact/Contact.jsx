@@ -29,19 +29,19 @@ const Contact = () => {
             <MdEmail/>
             <h4>Email</h4>
             <h5>adeleyepaul2@gmail.com</h5>
-            <a href="mailto:adeleyepaul2@gmail.com" target="_blank" rel="noopener noreferrer">Send a message</a>
+              <a href="mailto:adeleyepaul2@gmail.com" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <BsMessenger/>
             <h4>Messenger</h4>
             <h5>Paul Adeleye</h5>
-            <a href="https://m.me/adeleyepaul2" target="_blank" rel="noopener noreferrer">Send a message</a>
+              <a href="https://m.me/adeleyepaul2" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
           <article className='contact__option'>
             <RiWhatsappFill/>
             <h4>Whatsapp</h4>
             <h5>+2347030258008</h5>
-            <a href="https://api.whatsapp.com/send?phone=2347030258008" target="_blank" rel="noopener noreferrer">Send a message</a>
+              <a href="https://api.whatsapp.com/send?phone=2347030258008" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTION */}
